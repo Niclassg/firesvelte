@@ -7,7 +7,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/Niclassg/firesvelte"
 	},
 	"version": "0.0.1",
 	"scripts": {
@@ -33,10 +33,12 @@
 		"!dist/**/*.test.*",
 		"!dist/**/*.spec.*"
 	],
+
 	"peerDependencies": {
 		"svelte": "^4.0.0"
 	},
 	"devDependencies": {
+		"firebase": "^9.0.0",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
 		"@sveltejs/package": "^2.0.0",

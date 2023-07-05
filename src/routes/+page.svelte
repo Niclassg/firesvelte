@@ -1,3 +1,20 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import Document from '$lib/Components/Document.svelte';
+	import { db, auth } from './firebaseInit.js';
+	import FireSvelte from '$lib/FireSvelte.svelte';
+</script>
+
+<FireSvelte auth={auth} fireStore={db} >
+	<h1>Welcome FireSveltet</h1>
+	<p>This is just a page for testing the library</p>
+
+	<Document ref="message/test" initial={{name: "test"}} let:data={messages}>
+		{#if messages !== null}
+			<p>Document data: {JSON.stringify(messages)}</p>
+		{:else}
+			<p>Loading...</p>
+		{/if}
+	</Document>
+
+</FireSvelte>
+

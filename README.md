@@ -1,19 +1,21 @@
-# create-svelte
+# FireSvelte
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-Read more about creating a library [in the docs](https://kit.svelte.dev/docs/packaging).
+A strongly typed and easy to use Firebase library for SvelteKit.
 
-## Creating a project
+Based on [SvelteFire](https://github.com/codediodeio/sveltefire) which doesn't seem to be maintained anymore.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Improvements
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- [x] Strongly typed
+- [ ] Support for Realtime Database coming soon (I hope)
 
-# create a new project in my-app
-npm create svelte@latest my-app
+
+## Usage
+
+
+```npm
+npm i firesvelte
 ```
 
 ## Developing

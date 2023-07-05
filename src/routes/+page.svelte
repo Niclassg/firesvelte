@@ -1,20 +1,32 @@
 <script lang="ts">
+	import Collection from '$lib/Components/Collection.svelte';
 	import Document from '$lib/Components/Document.svelte';
-	import { db, auth } from './firebaseInit.js';
-	import FireSvelte from '$lib/FireSvelte.svelte';
+
+	type message = {
+		from: string;
+		text: string;
+	};
+
+	const initialDoc: message = {
+		from: 'Marc',
+		text: 'World'
+	};
+
+	const initialCol: message[] = [];
 </script>
 
-<FireSvelte auth={auth} fireStore={db} >
-	<h1>Welcome FireSveltet</h1>
-	<p>This is just a page for testing the library</p>
+<Document ref="messages/message" initial={initialDoc} let:data={message}>
+	{#if message !== null}
+		<p>Document data: {message?.from}: {message?.text}</p>
+	{/if}
+</Document>
 
-	<Document ref="message/test" initial={{name: "test"}} let:data={messages}>
-		{#if messages !== null}
-			<p>Document data: {JSON.stringify(messages)}</p>
-		{:else}
-			<p>Loading...</p>
-		{/if}
-	</Document>
-
-</FireSvelte>
-
+<Collection ref="messages" initial={initialCol} let:data={messages}>
+	{#if messages !== null}
+		<ul>
+			{#each messages as message}
+				<li>{message.from}: {message.text}</li>
+			{/each}
+		</ul>
+	{/if}
+</Collection>

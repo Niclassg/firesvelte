@@ -1,13 +1,14 @@
 {
-	"name": "firesvelte",
+	"name": "svelte-flame",
 	"license": "apache-2.0",
+	"description": "Simplify Firebase integration with SvelteKit",
 	"author": {
 		"name": "Niclas Gleesborg",
 		"url": "https://github.com/Niclassg"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Niclassg/firesvelte"
+		"url": "https://github.com/Niclassg/svelte-flame"
 	},
 	"version": "0.0.1",
 	"scripts": {
@@ -33,7 +34,6 @@
 		"!dist/**/*.test.*",
 		"!dist/**/*.spec.*"
 	],
-
 	"peerDependencies": {
 		"svelte": "^4.0.0"
 	},

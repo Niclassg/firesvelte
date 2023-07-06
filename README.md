@@ -19,7 +19,8 @@ Inspired by [SvelteFire](https://github.com/codediodeio/sveltefire).
 
 ## Example
 
-The repository contains examples that uses SvelteFlame. You can find it [here](/src/routes)
+There is a demo repo [here](https://github.com/Niclassg/svelte-flame-example)
+
 
 ## Usage
 
@@ -53,7 +54,7 @@ export const db = getFirestore(app);
 <!-- ./src/routes/+layout.svelte -->
 <script lang="ts">
 	import { db, auth } from './firebaseInit.js';
-	import SvelteFlame from '$lib/SvelteFlame.svelte';
+	import { SvelteFlame } from 'svelte-flame';
 </script>
 
 <SvelteFlame {auth} fireStore="{db}">
@@ -66,7 +67,7 @@ export const db = getFirestore(app);
 
 ```html
 <script lang="ts">
-	import Document from '$lib/Components/Document.svelte';
+	import { Document } from 'svelte-flame';
 </script>
 
 <Document ref="messages/message" " let:data="{message}">

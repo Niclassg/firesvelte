@@ -1,7 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
-import { FIREBASE_API_KEY } from '$env/static/private';
+import { PUBLIC_FIREBASE_API_KEY } from '$env/static/public';
 
 
 // const firebaseConfig: FirebaseOptions = {
@@ -10,7 +10,7 @@ import { FIREBASE_API_KEY } from '$env/static/private';
 
 export const app = initializeApp(
     {
-      apiKey: FIREBASE_API_KEY,
+      apiKey: PUBLIC_FIREBASE_API_KEY,
       authDomain: "svelte-flame.firebaseapp.com",
       projectId: "svelte-flame",
       storageBucket: "svelte-flame.appspot.com",

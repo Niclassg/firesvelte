@@ -2,8 +2,8 @@
 	//This component allows you to access the document store from any component in the slot
 
 	import type { DocumentReference, Firestore } from 'firebase/firestore';
-	import { documentStore } from '../stores/DocumentStore.js';
-	import { firebaseSdk } from '../stores/SvelteFlameStore.js';
+	import { documentStore } from '$lib/stores/DocumentStore.js';
+	import { firebaseSdk } from '$lib/stores/SvelteFlameStore.js';
 
 	interface $$Slots {
 		default: {

@@ -1,9 +1,9 @@
 <script lang="ts" generics="T">
 	//This component allows you to access the document store from any component in the slot
 
-	import type { CollectionReference, DocumentReference, Firestore, Query } from 'firebase/firestore';
-	import { collectionStore } from '../stores/CollectionStore.js';
-	import { firebaseSdk } from '../stores/SvelteFlameStore.js';
+	import type { CollectionReference, Firestore, Query } from 'firebase/firestore';
+	import { collectionStore } from '$lib/stores/CollectionStore.js';
+	import { firebaseSdk } from '$lib/stores/SvelteFlameStore.js';
 
 	interface $$Slots {
 		default: {

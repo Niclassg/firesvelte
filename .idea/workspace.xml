@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9c427fe-db74-45a4-a1a1-6a2f84fe9c2c" name="Changes" comment="use api-key">
+    <list default="true" id="a9c427fe-db74-45a4-a1a1-6a2f84fe9c2c" name="Changes" comment="Updated env">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Components/Collection.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Components/Collection.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Components/Document.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Components/Document.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/firebaseInit.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/firebaseInit.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2SBWeDmZHXMzKQwn6jC1TB5bbz6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
@@ -41,6 +49,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/lib" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +65,7 @@
       <updated>1688620549260</updated>
       <workItem from="1688620550747" duration="10000" />
       <workItem from="1688620568025" duration="36000" />
-      <workItem from="1688620610421" duration="400000" />
+      <workItem from="1688620610421" duration="875000" />
     </task>
     <task id="LOCAL-00001" summary="use api-key">
       <option name="closed" value="true" />
@@ -61,14 +75,24 @@
       <option name="project" value="LOCAL" />
       <updated>1688620902320</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated env">
+      <option name="closed" value="true" />
+      <created>1688621028993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688621028993</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="use api-key" />
-    <option name="LAST_COMMIT_MESSAGE" value="use api-key" />
+    <MESSAGE value="Updated env" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated env" />
   </component>
 </project>

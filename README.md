@@ -1,4 +1,4 @@
-# FireSvelte
+# SvelteFlame
 
 
 A strongly typed and easy to use Firebase library for SvelteKit.

@@ -4,6 +4,8 @@
 name: Vitest CI
 
 on:
+  workflow_run:
+    branches: [ "*" ]
   push:
     branches: [ "*" ]
   pull_request:

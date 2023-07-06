@@ -9,15 +9,15 @@ import { FIREBASE_API_KEY } from '$env/static/private';
 // };
 
 export const app = initializeApp(
-	{
-		apiKey: FIREBASE_API_KEY,
-		authDomain: 'svelte-flame.firebaseapp.com',
-		projectId: 'svelte-flame',
-		storageBucket: 'svelte-flame.appspot.com',
-		messagingSenderId: '625528404416',
-		appId: '1:625528404416:web:54c37b2b9ed8618d50f025'
-	},
-	'svelte-flame'
+    {
+      apiKey: FIREBASE_API_KEY,
+      authDomain: "svelte-flame.firebaseapp.com",
+      projectId: "svelte-flame",
+      storageBucket: "svelte-flame.appspot.com",
+      messagingSenderId: "625528404416",
+      appId: "1:625528404416:web:18e382c65b3a113c50f025"
+    },
+    'svelte-flame'
 );
 
 export const auth = getAuth(app);
